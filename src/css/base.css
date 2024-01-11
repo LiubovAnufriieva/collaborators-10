@@ -1,0 +1,40 @@
+/* Common styles*/
+body {
+    font-family: DM Sans;
+    color: #FFF;
+    background: var(--black, #121212);
+}
+
+.accent {
+    color: #BEA69E;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12; /* 112.5% */
+    letter-spacing: 0.04em;
+}
+
+/* Phone devices */
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Tablet devices */
+@media screen and (min-width: 768px) {
+.container {
+    max-width: 768px;
+    padding: 0 32px;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
+}
