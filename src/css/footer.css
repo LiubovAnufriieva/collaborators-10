@@ -10,6 +10,18 @@
     flex-shrink: 0;
 }
 
+@media screen and (min-width: 768px) {
+.footer-svg {
+    min-width: 127px;
+    min-height: 20px;
+}}
+
+@media screen and (min-width: 1280px) {
+.footer-svg {
+    min-width: 124px;
+    min-height: 16px;
+}}
+
 /* Address */
 
 .footer-address {
@@ -21,11 +33,14 @@
 
 .address-link {}
 
-.address-text {}
+.address-text {
+    text-transform: none;
+}
 
 /* Social media */
 
-.footer-socmedialist {
+.footer-socmedialist,
+.footer-navmenu {
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -36,11 +51,6 @@
 
 
 /* Anchor links */
-
-.footer-navmenu {
-    font-size: 14px;
-    text-transform: uppercase;
-}
 
 .navmenu-item {}
 
@@ -60,9 +70,23 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 12px;
     outline: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+
     background-color: rgba(18, 18, 18, 1);
     color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (min-width: 768px) {
+.footer-input {
+    min-width: 178px;
+}}
+
+@media screen and (min-width: 1280px) {
+.footer-input {   
+    min-width: 216px; 
+}}
 
 .footer-input::placeholder {
     background-color: rgba(255, 255, 255, 1);
@@ -92,8 +116,15 @@
 }
 
 .policy-link,
-.footer-copyright{
+.footer-copyright {
     font-size: 12px;
     line-height: 1.33; /* 16px/12 */
 }
 
+
+@media screen and (min-width: 768px) {
+.policy-link,
+.footer-copyright {
+    font-size: 14px;
+    line-height: 1.28; /* 18px/14 */
+}}
