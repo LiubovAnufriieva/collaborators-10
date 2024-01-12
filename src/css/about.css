@@ -33,6 +33,18 @@
   padding-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .about-img {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-img {
+    padding-right: 40px;
+  }
+}
+
 .about-text {
   color: var(--white, #fff);
   font-family: DM Sans;
