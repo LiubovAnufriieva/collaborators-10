@@ -77,9 +77,19 @@
     background-color: rgba(255, 255, 255, 1);
 }
 
-.footer-btn {}
+.footer-btn {
+    min-width: 60px;
+    min-height: 60px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(29, 29, 29, 1);
+    outline: transparent;
 
-.button {}
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.20;/* 24px/20 */
+}
 
 .footer-copyright {}
 
