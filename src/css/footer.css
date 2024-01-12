@@ -91,6 +91,9 @@
     line-height: 1.20;/* 24px/20 */
 }
 
-.footer-copyright {}
+.policy-link,
+.footer-copyright{
+    font-size: 12px;
+    line-height: 1.33; /* 16px/12 */
+}
 
-.policy-link {}
