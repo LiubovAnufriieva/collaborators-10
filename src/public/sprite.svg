@@ -11,9 +11,8 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667"/>
     </symbol>
     <symbol id="icon-Arrow" viewBox="0 0 32 32">
-      <path d="M22.222 8 32 15.698l-9.778 7.698v-6.365H0v-2.667h22.222V7.999z"/>
+    <path d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
     </symbol>
-
     <symbol id="xclose-btn-mob" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24 8l-16 16"></path>
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M8 8l16 16"></path>
