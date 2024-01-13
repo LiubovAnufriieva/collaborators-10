@@ -36,6 +36,7 @@
 
 .reviews-wrapper-1 {
   width: 100%;
+  max-height: 244px;
   margin-top: 40px;
   padding: 20px;
 
@@ -45,7 +46,8 @@
 @media only screen and (min-width: 768px) {
   .reviews-wrapper-1 {
     position: relative;
-    width: 640px;
+    max-width: 640px;
+    max-height: 196px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -54,6 +56,7 @@
 @media only screen and (min-width: 1280px) {
   .reviews-wrapper-1 {
     max-width: 530px;
+    max-height: 216px;
     margin-left: 0;
     margin-right: 20px;
   }
@@ -63,6 +66,7 @@
   margin-top: 50px;
 
   max-width: 530px;
+  max-height: 216px;
   padding: 20px;
 
   border-radius: 12px;
@@ -147,9 +151,6 @@
   fill: #414141;
 }
 .reviews-icons {
-}
-
-.reviews-icons:last-child {
 }
 
 .reviews-p {
