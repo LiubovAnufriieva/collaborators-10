@@ -1,0 +1,49 @@
+<section class="sign-up">
+  <div class="container">
+    <div class="sign-up_main">
+      <h2 class="sign-up_title">
+        Sign <span class="sign-up_title-span">Up</span>
+      </h2>
+      <p class="sign-up_text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-up_form">
+        <div class="sign-up_input">
+          <input
+            type="text"
+            placeholder="Enter your name"
+            pattern="[A-Za-z]"
+            class="modal-input"
+            name="user-name"
+            id="user-name"
+          />
+        </div>
+        <div class="sign-up_input">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            pattern="[A-Za-z]{8,}"
+            class="modal-input"
+            name="user-email"
+            id="user-email"
+          />
+        </div>
+        <div class="sign-up_comment">
+          <textarea
+            placeholder="Message"
+            class="modal-textarea"
+            name="user-comment"
+            id="user-comment"
+          ></textarea>
+        </div>
+        <button class="sign-up_btn" type="submit">Send</button>
+      </form>
+      <p class="sign-up_info">
+        By clicking on “Send” button, you agree to our
+        <a class="sign-up_privacy" href="">Privacy Policy</a>, and allow Promodo
+        to use this information for marketing purposes.
+      </p>
+    </div>
+  </div>
+</section>
