@@ -20,7 +20,7 @@
 
     
     <script type="module" crossorigin src="/collaborators-10/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/collaborators-10/assets/index-c59b2636.css">
+    <link rel="stylesheet" href="/collaborators-10/assets/index-f10b6b5e.css">
   </head>
   <body>
     <header class="container header-container">
@@ -106,16 +106,26 @@
         <div class="hero-review-wrapper">
             <div class="hero-review-block">
                 <ul class="hero-review-list">
-                    <li class="hero-review-item"><img class="review-img" src="/collaborators-10/assets/hero-icon1@1x-fd9ee6e3.png" alt=""
-                            width="44"></li>
-                    <li class="hero-review-item"><img class="review-img" src="/collaborators-10/assets/hero-icon2@1x-51e1573c.png" alt="" width="44">
+                    <li class="hero-review-item">
+                        <img class="review-img"
+                        srcset="/collaborators-10/assets/hero-icon1@1x-fd9ee6e3.png 1x, /collaborators-10/assets/hero-icon1@2x-32f5fbd2.png 2x"
+                        src="/collaborators-10/assets/hero-icon1@1x-fd9ee6e3.png" alt="Girl-1" width="44" >
                     </li>
-                    <li class="hero-review-item"><img class="review-img" src="/collaborators-10/assets/hero-icon3@1x-9ef1ca62.png" alt="" width="44">
+                    <li class="hero-review-item">
+                        <img class="review-img"
+                        srcset="/collaborators-10/assets/hero-icon2@1x-51e1573c.png 1x, /collaborators-10/assets/hero-icon2@2x-bdcf3e9b.png 2x"
+                        src="/collaborators-10/assets/hero-icon2@1x-51e1573c.png" alt="Boy" width="44" >
+                    </li>
+                    <li class="hero-review-item">
+                        <img class="review-img"
+                        srcset="/collaborators-10/assets/hero-icon3@1x-9ef1ca62.png 1x, /collaborators-10/assets/hero-icon3@2x-f6cd2c4b.png 2x"
+                        src="/collaborators-10/assets/hero-icon3@1x-9ef1ca62.png" alt="Girl-2" width="44" >
                     </li>
                 </ul>
                 <div class="hero-review-link-container">
                     <a class="hero-review-link" href="#reviews">Our happy students</a>
-                    <svg class="hero-arrow-icon" width="18" height="9"> <use href="/collaborators-10/assets/sprite-00df1495.svg#hero-arrow"></use>
+                    <svg class="hero-arrow-icon" width="18" height="9">
+                        <use href="/collaborators-10/assets/sprite-00df1495.svg#hero-arrow"></use>
                     </svg>
                 </div>
             </div>
@@ -128,12 +138,12 @@
                 <p class="hero-review-desc-text">Reviews<span class="numbers-accent"> +1500</span></p>
             </div>
         </div>
-        <img class="hero-back-img" src="/collaborators-10/assets/hero_desk@2x-41cdf51f.png" alt="" width="">
-    </div>
-    <div class="test-test">
-
-    </div>
-
+        <picture>
+            <source media="(min-width: 1280px)" srcset="/collaborators-10/assets/hero_desk@1x-0a9a7cb9.png 1x, /collaborators-10/assets/hero_desk@2x-41cdf51f.png 2x" >
+            <source media="(min-width: 768px) and (max-width: 1270px)" srcset="/collaborators-10/assets/hero_tab@1x-63dd8de4.png 1x, /collaborators-10/assets/hero_tab@2x-bd9765ca.png 2x" >
+            <source media="(min-width: 320px) and (max-width: 767px)" srcset="/collaborators-10/assets/hero_mob@2x-80294aac.png 1x, /collaborators-10/assets/hero_mob@2x-80294aac.png 2x" > 
+            <img class="hero-back-img" src="/collaborators-10/assets/hero_mob@2x-80294aac.png" alt="Camera man" width="" height="">
+        </picture>
     </div>
 </section>
       <section class="advertisement">
