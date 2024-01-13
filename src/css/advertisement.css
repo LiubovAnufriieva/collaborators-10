@@ -11,6 +11,18 @@
   margin-bottom: 80px;
 }
 
+@media screen and (min-width: 768px) {
+  .advertisement-inner {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement-inner {
+    margin-bottom: 150px;
+  }
+}
+
 .advertisement-line {
   flex-shrink: 0;
   margin: 0;
@@ -40,7 +52,6 @@
     font-size: 40px;
     font-weight: 400;
     line-height: 1.25; /* 125% */
-    margin-bottom: 100px;
   }
 }
 
@@ -48,7 +59,6 @@
   .advertisement-line {
     font-size: 59px;
     line-height: 1.08; /* 108.475% */
-    margin-bottom: 150px;
   }
 }
 

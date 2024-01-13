@@ -1,13 +1,26 @@
 <section class="about container">
   <h2 class="about-title">About <span class="about-title-span">Us</span></h2>
   <div class="about-div">
-    <img
-      src="./img/about/about_mob@1x.jpg"
-      alt="Camera"
-      class="about-img"
-      width="335"
-      height="209"
-    />
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./img/about/about_desk@1x.png 1x,
+          img/about/about_desk@2x.png   2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="./img/about/about_mob@1x.png 1x, img/about/about_mob@2x.png 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./img/about/about_tab@1x.png 1x, img/about/about_tab@2x.png 2x"
+      />
+
+      <img src="./img/about/about_mob@1x.png" alt="Camera" class="about-img" />
+    </picture>
+
     <p class="about-text">
       Our photography school is designed to teach you everything you need to
       know about this magical art. Regardless of your experience or skill level,

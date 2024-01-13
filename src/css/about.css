@@ -17,6 +17,7 @@
     font-size: 48px;
     font-weight: 500;
     line-height: 1.12; /* 112.5% */
+    margin-bottom: 50px;
   }
 }
 
@@ -27,6 +28,19 @@
 .about-div {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-div {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-div {
+    margin-bottom: 100px;
+  }
 }
 
 .about-img {
@@ -63,5 +77,20 @@
     line-height: 1.25; /* 125% */
     letter-spacing: -0.02em;
     width: 280px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-text {
+    width: 268px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-text:last-child {
+    width: 264px;
+    margin-right: 0;
   }
 }
