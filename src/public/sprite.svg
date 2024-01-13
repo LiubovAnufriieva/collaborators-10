@@ -33,7 +33,7 @@
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M16 4l3.708 7.899 8.292 1.274-6 6.145 1.416 8.681-7.416-4.101-7.416 4.101 1.416-8.681-6-6.145 8.292-1.274 3.708-7.899z"></path>
     </symbol>
 
-    <symbol id="menu-icon-mob" viewBox="0 0 47 32">
+    <symbol id="menu-icon-mob" viewBox="0 0 32 32">
       <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M5.87 8.667h25.13"></path>
       <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M5.87 22h25.13"></path>
       <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M13.522 15.333h17.478"></path>
