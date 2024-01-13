@@ -36,7 +36,7 @@
 .hero-review-wrapper {
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
+  justify-content: flex-start;
 
   margin-bottom: 31px;
 }
