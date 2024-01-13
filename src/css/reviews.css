@@ -6,7 +6,7 @@
 }
 
 .reviews-title {
-  min-width: 100px;
+  width: 100px;
 
   color: #fff;
   font-family: DM Sans;
@@ -16,15 +16,28 @@
   line-height: 1.14; /* 114.286% */
   letter-spacing: -0.04em;
 }
-.reviews-wrapper {
-  display: flex;
-  min-width: 320px;
-  max-width: 375px;
+@media only screen and (min-width: 768px) {
+  .reviews-title {
+    width: 171px;
+
+    font-size: 48px;
+
+    line-height: 1.13; /* 112.5% */
+    letter-spacing: -0.04em;
+  }
 }
+
+@media only screen and (min-width: 1280px) {
+  .reviews-wrapper {
+    display: flex;
+    min-width: 1080px;
+  }
+}
+
 .reviews-wrapper-1 {
-  width: 335px;
-  height: 244px;
+  width: 100%;
   margin-top: 40px;
+  padding: 20px;
 
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -33,7 +46,6 @@
   .reviews-wrapper-1 {
     position: relative;
     width: 640px;
-    height: 196px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +53,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .reviews-wrapper-1 {
-    width: 530px;
+    max-width: 530px;
     margin-left: 0;
     margin-right: 20px;
   }
@@ -50,7 +62,8 @@
   position: relative;
   margin-top: 50px;
 
-  width: 530px;
+  max-width: 530px;
+  padding: 20px;
 
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -71,7 +84,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 20px 20px 0;
 
   gap: 10px;
   min-width: 211px;
@@ -110,7 +122,7 @@
 }
 .reviews-wrapper-icons {
   margin-top: 4px;
-  margin-left: 86px;
+  margin-left: 66px;
   width: 96px;
   height: 16px;
 }
@@ -149,19 +161,19 @@
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
 
-  width: 295px;
-  height: 108px;
-  margin: 20px;
+  width: 100%;
+
+  margin-top: 20px;
 }
 @media only screen and (min-width: 768px) {
   .reviews-p {
-    width: 600px;
+    max-width: 600px;
     font-size: 16px;
     line-height: 1.25; /* 125% */
   }
 }
 @media only screen and (min-width: 1280px) {
   .reviews-p {
-    width: 490px;
+    max-width: 490px;
   }
 }
