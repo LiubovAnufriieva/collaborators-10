@@ -88,7 +88,6 @@
 
 .socmedia-item:not(:last-child) {
     margin-bottom: 14px;  
-        outline: 1px solid maroon;
 }
 
 
@@ -96,7 +95,6 @@
 
 .navmenu-item:not(:last-child) {
     margin-bottom: 14px;
-        outline: 1px solid maroon;
 }
 
 
@@ -187,10 +185,19 @@
     width: 147px;
 }
 
+@media screen and (min-width: 768px) {
+    .policy-link {
+        width: 171px;
+}}
 
 .footer-copyright {
     width: 116px;
 }
+
+@media screen and (min-width: 768px) {
+    .footer-copyright {
+        width: 134px;
+}}
 
 @media screen and (min-width: 768px) {
 .policy-link,
@@ -202,4 +209,10 @@
 .term {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+.term {
+    margin-top: 160px;
+}}
