@@ -1,4 +1,21 @@
 /* Mobile styles */
+
+.png-wrapper {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/hero/Graphic.png'); /* Замініть '/path/to/your/grid-background.png' шляхом до вашого png-зображення */
+  background-size: contain;
+  background-repeat: repeat; /* Тут використовуйте 'repeat' для пунктирної сітки */
+  position: relative;
+  z-index: 1; /* Щоб забезпечити, що вміст знаходиться над фоновим зображенням */
+}
+
+.hero-section {
+  padding: 21px 0 79px;
+  text-align: center;
+  color: white;
+}
+
 .hero-wrapper {
   background-color: #1d1d1d;
   padding: 40px 20px 0;
@@ -14,6 +31,7 @@
   letter-spacing: -0.04em;
 
   margin-bottom: 20px;
+  text-align: start;
 }
 
 .italic-accent {
@@ -31,6 +49,7 @@
   letter-spacing: -0.02em;
 
   margin-bottom: 40px;
+  text-align: start;
 }
 
 .hero-review-wrapper {
@@ -44,7 +63,7 @@
 .hero-review-list {
   display: flex;
 
-  margin: 0;
+  margin-bottom: 4px;
   padding: 0;
   list-style: none;
 }
@@ -76,6 +95,7 @@
   display: inline-block;
   width: 67px;
   margin-bottom: 4px;
+  text-align: start;
 
   color: #fff;
   font-size: 14px;
@@ -83,6 +103,20 @@
   line-height: 1.28; /* 128.571% */
   letter-spacing: -0.04em;
 }
+
+.hero-review-link-container:hover .hero-review-link,
+.hero-review-link-container:focus .hero-review-link{
+  color: #BEA69E;
+  font-weight: 500;
+
+}
+
+.hero-review-link-container:hover .hero-arrow-icon,
+.hero-review-link-container:focus .hero-arrow-icon{
+  fill: #BEA69E;
+}
+
+
 
 .hero-review-desc {
   display: flex;
@@ -99,7 +133,7 @@
 .star-icon {
   fill: transparent;
   stroke: rgba(18, 18, 18, 1);
-  transform: translate(60%, 60%);
+  transform: translateY(55%);
 }
 
 .hero-review-desc-text {
@@ -187,7 +221,7 @@
     margin-bottom: 136px;
   }
   .hero-review-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
   .hero-back-img {
     width: 397px;
