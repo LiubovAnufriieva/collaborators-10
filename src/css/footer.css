@@ -102,15 +102,21 @@
 
 /* Subscribe */
 
-.footer-form {
+@media screen and (max-width: 767.98px) {
+    .footer-form {
     margin-top: 75px;
     margin-bottom: 40px;
+}}
+
+.footer-form {
+    margin-left: auto;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .footer-form {
         margin-top: 0;
-}}
+        margin-bottom: 0;
+}} */
 
 .footer-label {
     display: flex;
