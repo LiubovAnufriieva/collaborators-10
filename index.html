@@ -20,7 +20,7 @@
 
     
     <script type="module" crossorigin src="/collaborators-10/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/collaborators-10/assets/index-7d71e2e9.css">
+    <link rel="stylesheet" href="/collaborators-10/assets/index-e3215bd2.css">
   </head>
   <body>
     <div class="png-wrapper">
@@ -33,28 +33,30 @@
             </a>
             <ul class="header-menu">
                 <li class="header-menu-item">
-                    <a href="" class="header-link">About us</a>
+                    <a href="./index.html#about" class="header-link">About us</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="" class="header-link">Our courses</a>
+                    <a href="./index.html#courses" class="header-link">Our courses</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="" class="header-link">Our mentors</a>
+                    <a href="./index.html#mentors" class="header-link">Our mentors</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="" class="header-link">Reviews</a>
+                    <a href="./index.html#reviews" class="header-link">Reviews</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="" class="header-link">Contacts</a>
+                    <a href="./index.html#footer" class="header-link">Contacts</a>
                 </li>
                 
             </ul>
 
             <div class="header-mob-btn">
                 <button class="header-mobile-btn" type="button" aria-label="Sign up button">
-                    <svg class="header-mobile-btn-icon" width="16" height="16">
-                        <use href="/collaborators-10/assets/sprite-00df1495.svg#icon-camera"></use>
-                    </svg>
+                    <a href="./index.html#sign-up" class="header-mobile-btn-link">
+                        <svg class="header-mobile-btn-icon" width="16" height="16">
+                            <use href="/collaborators-10/assets/sprite-00df1495.svg#icon-camera"></use>
+                        </svg>
+                    </a>
                 </button>
 
                 <button class="header-menu-btn" type="button" aria-label="Open menu button">
@@ -65,11 +67,14 @@
             </div>
         </nav>
 
-        <button class="header-btn" aria-label="Sign up button">Sign up</button>
+        <button class="header-btn" aria-label="Sign up button">
+           <a href="./index.html#sign-up" class="header-btn-link">Sign up</a>
+        </button>
 </header>
 
  <!-- Mobile menu -->
- <div class="mobile-menu is-ope n">
+ <div class="backdrop is-ope n">
+ <div class="mobile-menu">
     <button class="mobile-menu-btn" type="button">
         <svg class="xclose-btn-mob" width="32" height="32">
             <use href="/collaborators-10/assets/sprite-00df1495.svg#xclose-btn-mob"></use>
@@ -78,24 +83,25 @@
 
     <ul class="mobile-menu-list">
         <li class="mobile-menu-item menu-current">
-            <a href="" class="mobile-menu-link current">About us</a>
+            <a href="./index.html#about" class="mobile-menu-link current">About us</a>
         </li>
         <li class="mobile-menu-item">
-            <a href="" class="mobile-menu-link">Our courses</a>
+            <a href="./index.html#courses" class="mobile-menu-link">Our courses</a>
         </li>
         <li class="mobile-menu-item">
-            <a href="" class="mobile-menu-link">Our mentors</a>
+            <a href="./index.html#mentors" class="mobile-menu-link">Our mentors</a>
         </li>
         <li class="mobile-menu-item">
-            <a href="" class="mobile-menu-link">Reviews</a>
+            <a href="./index.html#reviews" class="mobile-menu-link">Reviews</a>
         </li>
         <li class="mobile-menu-item">
-            <a href="" class="mobile-menu-link">Contacts</a>
+            <a href="./index.html#footer" class="mobile-menu-link">Contacts</a>
         </li>
     </ul>
 
     <div  class="mobile-menu-image">
     </div>
+</div>
 </div>
     <section class="hero-section container">
     <div class="hero-wrapper ">
@@ -141,8 +147,8 @@
         <picture>
             <source media="(min-width: 1280px)" srcset="/collaborators-10/assets/hero_desk@1x-0a9a7cb9.png 1x, /collaborators-10/assets/hero_desk@2x-41cdf51f.png 2x" >
             <source media="(min-width: 768px) and (max-width: 1270px)" srcset="/collaborators-10/assets/hero_tab@1x-63dd8de4.png 1x, /collaborators-10/assets/hero_tab@2x-bd9765ca.png 2x" >
-            <source media="(min-width: 320px) and (max-width: 767px)" srcset="/collaborators-10/assets/hero_mob@1x-80294aac.png 1x, /collaborators-10/assets/hero_mob@1x-80294aac.png 2x" > 
-            <img class="hero-back-img" src="/collaborators-10/assets/hero_mob@1x-80294aac.png" alt="Camera man" width="" height="">
+            <source media="(min-width: 320px) and (max-width: 767px)" srcset="/collaborators-10/assets/hero_mob@2x-80294aac.png 1x, /collaborators-10/assets/hero_mob@2x-80294aac.png 2x" > 
+            <img class="hero-back-img" src="/collaborators-10/assets/hero_mob@2x-80294aac.png" alt="Camera man" width="" height="">
         </picture>
     </div>
 </section>
@@ -165,7 +171,7 @@
   </div>
 </section>
 
-      <section class="about container">
+      <section class="about container" id="about">
   <h2 class="about-title">About <span class="about-title-span">Us</span></h2>
   <div class="about-div">
     <picture>
@@ -256,7 +262,7 @@
   </div>
 </section>
 
-      <section class="mentors">
+      <section class="mentors" id="mentors">
     <div class="container team-content">
         <h2 class="team-hed">Our <span class="team-hed-color">Mentors</span></h2>
         <ul class="team-list">
@@ -315,7 +321,7 @@
         </ul>
     </div>
 </section>
-      <section class="sign-up">
+      <section class="sign-up" id="sign-up">
   <div class="container">
     <div class="sign-up_main">
       <h2 class="sign-up_title">
@@ -365,7 +371,7 @@
   </div>
 </section>
 
-      <section class="reviews" #id="reviews">
+      <section class="reviews" id="reviews">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
     <div class="reviews-wrapper">
@@ -476,7 +482,7 @@
 </section>
 
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
   <div class="container">
     <!-- Logo -->
     <a class="footer-logo" href=".index.html">
