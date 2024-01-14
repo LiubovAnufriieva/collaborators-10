@@ -1,3 +1,7 @@
+.reviews {
+  margin-bottom: 80px;
+}
+
 .reviews.container {
   display: flex;
   flex-direction: column;
@@ -17,6 +21,9 @@
   letter-spacing: -0.04em;
 }
 @media only screen and (min-width: 768px) {
+  .reviews {
+    margin-bottom: 100px;
+  }
   .reviews-title {
     width: 171px;
 
@@ -28,6 +35,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .reviews {
+    margin-bottom: 150px;
+  }
   .reviews-wrapper {
     display: flex;
     min-width: 1080px;

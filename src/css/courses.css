@@ -10,6 +10,9 @@ ol {
   margin: 0;
   padding: 0;
 }
+.courses {
+  margin-bottom: 80px;
+}
 
 .courses-title {
   color: #fff;
@@ -20,6 +23,10 @@ ol {
 }
 
 @media only screen and (min-width: 768px) {
+  .courses {
+    margin-bottom: 100px;
+  }
+
   .courses-title {
     font-size: 48px;
     line-height: 1.13; /* 112.5% */
@@ -27,6 +34,8 @@ ol {
 }
 
 @media only screen and (max-width: 767.98px) {
+  
+
   .courses-title {
     margin-bottom: 20px;
   }
@@ -53,6 +62,10 @@ ol {
 }
 
 @media only screen and (min-width: 1280px) {
+  .courses {
+    margin-bottom: 150px;
+  }
+  
   .courses-desk {
     max-width: 405px;
   }
