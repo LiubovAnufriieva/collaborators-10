@@ -67,6 +67,11 @@
         margin-right: 58px;
 }}
 
+@media screen and (min-width: 1280px) {
+    .footer-address {
+        margin-right: 285px;
+}}
+
 .address-link {
     display: block;
     margin-bottom: 10px;
@@ -101,6 +106,11 @@
     .thumb { 
         margin-top: 0;
         column-gap: 25px;
+}}
+
+@media screen and (min-width: 1280px) {
+    .thumb {
+        column-gap: 50px;
 }}
 
 .footer-socmedialist,
