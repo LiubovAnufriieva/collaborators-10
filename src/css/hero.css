@@ -2,7 +2,7 @@
 
 .png-wrapper {
   margin: 0;
-  padding: 0;
+  padding-bottom: 80px;
   background-image: url('../img/hero/Graphic.png'); /* Замініть '/path/to/your/grid-background.png' шляхом до вашого png-зображення */
   background-size: contain;
   background-repeat: repeat; /* Тут використовуйте 'repeat' для пунктирної сітки */
@@ -11,7 +11,7 @@
 }
 
 .hero-section {
-  padding: 21px 0 79px;
+  /* padding: 21px 0 79px; */
   text-align: center;
   color: white;
 }
@@ -165,6 +165,10 @@
 /*Tablet-styles  */
 
 @media screen and (min-width: 768px) {
+  .png-wrapper {
+    padding-bottom: 100px;
+  }
+
   .hero-wrapper {
     padding-left: 32px;
     padding-top: 64px;
@@ -203,6 +207,10 @@
 /* Desktop styles */
 
 @media screen and (min-width: 1280px) {
+  .png-wrapper {
+    padding-bottom: 150px;
+  }
+
   .hero-wrapper {
     display: flex;
     flex-direction: column;
