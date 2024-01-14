@@ -1,10 +1,12 @@
 .footer {
     padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
         padding-top: 150px;
+        padding-bottom: 25px;
 }}
 
 @media screen and (min-width: 768px) {
@@ -162,12 +164,6 @@
     margin-left: auto;
 }
 
-/* @media screen and (min-width: 768px) {
-    .footer-form {
-        margin-top: 0;
-        margin-bottom: 0;
-}} */
-
 .footer-label {
     display: flex;
     align-items: center;
@@ -191,12 +187,12 @@
 
 @media screen and (min-width: 768px) {
 .footer-input {
-    min-width: 178px;
+    max-width: 178px;
 }}
 
 @media screen and (min-width: 1280px) {
 .footer-input {   
-    min-width: 216px; 
+    max-width: 216px; 
 }}
 
 .footer-input::placeholder {
