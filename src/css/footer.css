@@ -1,18 +1,21 @@
 .footer {
-    padding-top: 40px;
     padding-bottom: 20px;
+
     border-top:  1px solid rgba(255, 255, 255, 0.20);
 
     background-image: url('/img/hero/Graphic.png');
     background-size: cover;
     background-repeat: repeat;
+
 }
 
 @media screen and (min-width: 768px) {
     .footer {
-        padding-top: 50px;
         padding-bottom: 25px;
 }}
+
+
+
 
 /* Logo */
 
@@ -245,9 +248,5 @@
 
 @media screen and (min-width: 768px) {
 .term {
-    margin-top: 74px;
+    margin-top: 160px;
 }}
-@media screen and (min-width: 1280px) {
-    .term {
-        margin-top: 50px;
-    }}
