@@ -2,6 +2,18 @@
 padding: 40px 0;
 }
 
+@media only screen and (min-width: 768px) {
+   .mentors {
+    padding: 50px 0;    
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+   .mentors {
+    padding: 75px 0;
+  }
+}
+
 .team-hed {  /*h2*/
     font-size: 28px;
     line-height: 1.14em;
