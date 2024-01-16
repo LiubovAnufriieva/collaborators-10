@@ -8,18 +8,18 @@
 
 .advertisement-inner {
   display: flex;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
   .advertisement-inner {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .advertisement-inner {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 
