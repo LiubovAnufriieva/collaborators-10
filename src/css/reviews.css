@@ -11,7 +11,7 @@
 
 .reviews-title {
   width: 100px;
-
+  margin-bottom: 40px;
   color: #fff;
   font-family: DM Sans;
   font-size: 28px;
@@ -26,7 +26,7 @@
   }
   .reviews-title {
     width: 171px;
-
+    margin-bottom: 50px;
     font-size: 48px;
 
     line-height: 1.13; /* 112.5% */
@@ -47,7 +47,6 @@
 .reviews-wrapper-1 {
   width: 100%;
   max-height: 244px;
-  margin-top: 40px;
   padding: 20px;
 
   border-radius: 12px;
@@ -58,7 +57,7 @@
     position: relative;
     max-width: 640px;
     max-height: 196px;
-    margin-top: 50px;
+
     margin-left: auto;
     margin-right: auto;
   }
@@ -73,7 +72,6 @@
 }
 .reviews-wrapper-2 {
   position: relative;
-  margin-top: 50px;
 
   max-width: 530px;
   max-height: 216px;
