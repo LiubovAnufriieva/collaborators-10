@@ -1,24 +1,24 @@
 .footer {
     padding-bottom: 20px;
-
     border-top:  1px solid rgba(255, 255, 255, 0.20);
-
-    background-image: url('/img/hero/Graphic.png');
+    background-image: url('../img/footer/Graphic_mob.png');
     background-size: cover;
     background-repeat: repeat;
-
 }
 
 @media screen and (min-width: 768px) {
     .footer {
         padding-bottom: 25px;
+        background-image: url('../img/footer/Graphic_tab.png');
 }}
 
-
-
+. @media screen and (min-width: 1280px) {
+    .footer {
+background-image: url('../img/footer/Graphic_desk.png');
+    }};
 
 /* Logo */
-
+git
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -195,8 +195,8 @@
 }
 
 .footer-btn {
-    min-width: 60px;
-    min-height: 60px;
+    /* min-width: 60px;
+    min-height: 60px; */
     border: none;
     border-radius: 12px;
     background: rgba(29, 29, 29, 1);
