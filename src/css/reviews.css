@@ -31,9 +31,6 @@
   letter-spacing: -0.04em;
 }
 @media only screen and (min-width: 768px) {
-  .reviews {
-    margin-bottom: 100px;
-  }
   .reviews-title {
     width: 171px;
     margin-bottom: 50px;
@@ -45,9 +42,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .reviews {
-    margin-bottom: 150px;
-  }
   .reviews-wrapper {
     display: flex;
     min-width: 1080px;
@@ -154,7 +148,6 @@
 .reviews-list-icons {
   display: flex;
   flex-direction: row;
-
   gap: 4px;
 }
 .reviews-item-icons {
@@ -162,8 +155,6 @@
 }
 .reviews-item-icons:nth-child(5) {
   fill: #414141;
-}
-.reviews-icons {
 }
 
 .reviews-p {
