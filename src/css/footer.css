@@ -51,6 +51,12 @@
 
 /* Address */
 
+@media only screen and (max-width: 767.98px) {
+  .cover {
+    margin-bottom: 40px;    
+  }
+}
+
 .footer-address {
     font-size: 14px;
     font-style: normal;
