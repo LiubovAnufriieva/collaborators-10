@@ -83,10 +83,9 @@
               class="footer-input"
               type="email"
               name="subscribe_email"
-              pattern="@"
-              title="E-mail must content @"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"              
               placeholder="Enter your email"
-              aria-label="Enter your email"
+              required
             />
           </label>
           <button
