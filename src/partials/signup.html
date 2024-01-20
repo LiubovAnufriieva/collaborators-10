@@ -13,20 +13,20 @@
           <input
             type="text"
             placeholder="Enter your name"
-            pattern="[A-Za-z]"
+            pattern="([A-z]{4,30})"                        
             class="modal-input"
-            name="user-name"
-            id="user-name"
+            name="user-name"                        
+            required
           />
         </div>
         <div class="sign-up_input">
           <input
             type="email"
             placeholder="Enter your email"
-            pattern="[A-Za-z]{8,}"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"            
             class="modal-input"
-            name="user-email"
-            id="user-email"
+            name="user-email"                        
+            required
           />
         </div>
         <div class="sign-up_comment">
